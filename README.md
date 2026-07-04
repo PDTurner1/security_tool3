@@ -22,9 +22,9 @@ testlog.txt - Log file used in testing
 
 
 
-Sniffer53
+Sniff53
 
-Sniffer53 is a lightweight packet sniffer that parses Domain Name System (DNS) packets on port 53 (UDP) to detect malicious activity.  These DNS tunneling attacks can create a communication channel that bypasses many firewalls because they don’t inspect traffic that traverses port 53.  Corporate sized Next-Generation Firewalls (NGFWs) are now performing deep packet inspection.  Attackers can communicate with a Command and Control Server (C2) to send remote execution instructions to compromised computers.  If a firewall is not watching what is being sent back and forth on port 53 this can happen very easily.  This attack can also be used for data exfiltration, possibly sending small pieces of files or stealing credentials from a network.  Data exfiltration prevention hardware and software may miss DNS packets if they are only looking at traditional ways of exfiltrating data.  Another attack is used to bypass paid Wi-Fi.  Iodine and Your-Freedom are tools that can tunnel normal web traffic through port 53 which is usually open on paid Wi-Fi networks.  
+Sniff53 is a lightweight packet sniffer that parses Domain Name System (DNS) packets on port 53 (UDP) to detect malicious activity.  These DNS tunneling attacks can create a communication channel that bypasses many firewalls because they don’t inspect traffic that traverses port 53.  Corporate sized Next-Generation Firewalls (NGFWs) are now performing deep packet inspection.  Attackers can communicate with a Command and Control Server (C2) to send remote execution instructions to compromised computers.  If a firewall is not watching what is being sent back and forth on port 53 this can happen very easily.  This attack can also be used for data exfiltration, possibly sending small pieces of files or stealing credentials from a network.  Data exfiltration prevention hardware and software may miss DNS packets if they are only looking at traditional ways of exfiltrating data.  Another attack is used to bypass paid Wi-Fi.  Iodine and Your-Freedom are tools that can tunnel normal web traffic through port 53 which is usually open on paid Wi-Fi networks.  
 
 How to run the tool:
 
@@ -41,4 +41,4 @@ Python3 sniff53.py capture.pcap --features
 Python3 sniff53.py capture.pcap –summary
 
 
-See Sniffer53_Documentation.pdf for full documentation.
+See Sniff53_Documentation.pdf for full documentation.
