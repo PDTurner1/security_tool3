@@ -3,6 +3,8 @@
 
 Tool 3 – Updates – Sniff53
 
+The udated version 2 of Sniff53 is sniff53v2.py
+
 The feedback that I received from the reviews included the following:
 1.	Clearer reporting when malformed text log input is skipped or ignored.
 2.	Capture real DNS traffic to test the tool.
