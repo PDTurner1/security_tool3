@@ -1,4 +1,6 @@
 
+(Please see Tool3 Updates.pdf which includes screenshots)
+
 Tool 3 – Updates – Sniff53
 
 The feedback that I received from the reviews included the following:
@@ -20,10 +22,15 @@ Save the output from the tool to a file.
 	Updated the tool to add a logging option to the command.  The command line now accepts –log <logfile> and writes all information on screen to file.
 
 Examples:
+
 Python sniff53v2.py capture.pcap --log logfile.txt
+
 Python sniff53v2.py queries.log --log logfile.txt
+
 Python sniff53v2.py capture.pcap -- min-score 0.5 --log minscore05.txt
+
 Python sniff53v2.py capture.pcap --features --log features.txt
+
 Python sniff53v2.py capture.pcap --summary --log summary.txt
  
 I implemented all the feedback from the reviews.  
